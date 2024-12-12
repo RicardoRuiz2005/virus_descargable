@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué prefieres beber?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¿Qué prefieres beber?</h1>
+        <p class="intro-text">Selecciona tu opción a continuación:</p>
+        <div class="options-container">
+            <div class="option">
+                <img src="imagen1.jpg" alt="Agua de Horchata" class="drink-image">
+                <button class="option-button" onclick="irARickroll()">Agua de Horchata</button>
+            </div>
+            <div class="option">
+                <img src="imagen2.jpg" alt="Agua de Jamaica" class="drink-image">
+                <button class="option-button" onclick="redirigirAOtroHTML()">Agua de Jamaica</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function irARickroll() {
+            window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; // Rickroll
+        }
+
+        function redirigirAOtroHTML() {
+            window.location.href = 'invitacion.html'; // Redirige a invitacion.html
+        }
+    </script>
+</body>
+</html>
