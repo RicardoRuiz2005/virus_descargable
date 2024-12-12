@@ -136,3 +136,81 @@ body {
     border-radius: 8px;
     border: none;
 }
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3.5rem; /* Reducir el tamaño del título en pantallas pequeñas */
+    }
+
+    .intro-text {
+        font-size: 1.6rem; /* Reducir el tamaño del texto introductorio */
+    }
+
+    .date-time, .time {
+        font-size: 1.4rem; /* Reducir el tamaño de la fecha y hora */
+    }
+
+    .address a {
+        font-size: 1.4rem; /* Reducir el tamaño de la dirección */
+        padding: 8px 15px; /* Ajustar el padding */
+    }
+
+    .whatsapp-info {
+        font-size: 1.6rem; /* Reducir tamaño del texto del grupo de WhatsApp */
+    }
+
+    .whatsapp-group img {
+        width: 70px; /* Reducir el tamaño de la imagen de WhatsApp */
+    }
+
+    .map-container {
+        height: 250px; /* Reducir la altura del mapa */
+    }
+
+    .details {
+        font-size: 1.6rem; /* Reducir el tamaño del texto de detalles */
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 3rem; /* Reducir aún más el título en pantallas muy pequeñas */
+    }
+
+    .intro-text {
+        font-size: 1.4rem; /* Reducir el texto intro en pantallas muy pequeñas */
+    }
+
+    .date-time, .time {
+        font-size: 1.3rem; /* Ajustar la fecha y hora */
+    }
+
+    .address a {
+        font-size: 1.3rem;
+    }
+
+    .whatsapp-info {
+        font-size: 1.4rem; /* Ajustar tamaño del texto de WhatsApp */
+    }
+
+    .whatsapp-group img {
+        width: 60px; /* Hacer la imagen aún más pequeña */
+    }
+
+    .map-container {
+        height: 200px; /* Ajustar la altura del mapa */
+    }
+
+    .details {
+        font-size: 1.4rem; /* Ajustar tamaño de los detalles */
+    }
+
+    .container {
+        padding: 10px;
+    }
+}
